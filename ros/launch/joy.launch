@@ -1,0 +1,18 @@
+<launch>
+    <arg name="id" default="0"/>
+    <arg name="uri" default="radio://0/80/250K"/>
+    <arg name="use_flow" default="True"/>
+    <arg name="joy_topic" default="/joy"/>
+    <arg name="data_only" default="False"/>
+    <arg name="use_joy" default="True"/>
+
+    <node name="joystick" pkg="joy" type="joy_node" output="screen"/>
+
+    <node name="joy_controller_node$(arg id)" pkg="crazyflie" type="joy_controller_node.py" output="screen">
+        <param name="id" value="$(arg id)"/>
+        <param name="joy_topic" value="$(arg joy_topic)"/>
+        <param name="use_joy" value="$(arg use_joy)"/>
+        <param name="is_flow_motion" value="$(arg use_flow)"/>
+    </node>
+
+</launch>
