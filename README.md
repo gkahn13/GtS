@@ -4,7 +4,7 @@ arXiv paper link to arrive soon
 
 Click below to view the video
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/K0Msx7WnmGc/0.jpg)](https://www.youtube.com/watch?v=K0Msx7WnmGc)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/18Q9BYZAoag/0.jpg)](https://www.youtube.com/watch?v=18Q9BYZAoag)
 
 ### Crazyflie Setup
 
